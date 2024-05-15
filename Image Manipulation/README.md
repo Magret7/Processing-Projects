@@ -15,6 +15,6 @@
 
 **Contrast:** This filter will add higher contrast to an image when the user presses "2". One way to do this is by calculating the brightness (value) of each pixel. If the pixel's brightness is above a threshold value, additional "brightness" is added. If the pixel's brightness is below a threshold value, this brightness is subtracted.
 
-**Gaussian Blur Approximation:** This filter will approximate a Gaussian Blur when the user presses "3". Since blurring requires neighborhood knowledge of pixels, it will rely on your kernel, or convolution matrix, to extract and manipulate the necessary pixel information. You will need to buffer the updated image in order to prevent your changes to the image from influencing its neightbors.
+**Gaussian Blur Approximation:** This filter will approximate a Gaussian Blur when the user presses "3". Since blurring requires neighborhood knowledge of pixels, it will rely on your kernel, or convolution matrix, to extract and manipulate the necessary pixel information. 
 
-**Edge detection:** This filter will perform edge detection using the Sobel operators when the user presses "4". This filter also requires neighborhood knowledge of pixels, and therefore will also use your kernel. Again, you will need to buffer the updated image to prevent any changes in pixels from influencing their neighbors.
+**Edge detection:** This filter will perform edge detection using the Sobel operators when the user presses "4". This filter also requires neighborhood knowledge of pixels, and therefore will also use your kernel.
