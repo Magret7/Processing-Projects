@@ -1,0 +1,13 @@
+Team 10 - Assignment 5: 3D Scene (Theme chosen: Space)
+
+Caitlin Coder -
+The planet and its satellite will travel across the screen.
+
+Magret Adekunle -
+The stars will translate around.
+The sun will display in the center of the screen and shed light on its surroundings.
+
+Arthur Dale - 
+Space ships will periodically fly up across the screen, releasing puffs of smoke behind them.
+If the space ships hit the sun they will fall back down off the screen.
+Assembled scene from individual scenes
