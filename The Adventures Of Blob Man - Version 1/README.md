@@ -2,5 +2,5 @@
 
 
 ## How To Use
-  - Download and Open the Team10Assignment7.pde file and click 'Run' to display the image.
+  - Download and Open the Team10Assignment7.pde file and click 'Run' to display the game.
 
