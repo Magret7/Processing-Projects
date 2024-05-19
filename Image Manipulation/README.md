@@ -12,6 +12,8 @@
 
 ## Infomation 
   - **Grayscale:** This filter will convert a color image to a grayscale image when the user presses "1". One way to do this is by averaging across all color channels     on a per-pixel basis then assigning that value across all three color channels. This roughly preserves the value even if hue and saturation are discarded.
+    <img width="632" alt="Screenshot 2024-05-19 at 10 22 20 AM" src="https://github.com/Magret7/Processing-Projects/assets/40001619/56f25f95-dbec-45e6-9758-5cdbbd0985a8">
+
   - **Contrast:** This filter will add higher contrast to an image when the user presses "2". One way to do this is by calculating the brightness (value) of each pixel.   If the pixel's brightness is above a threshold value, additional "brightness" is added. If the pixel's brightness is below a threshold value, this brightness is         subtracted.
 
   - **Gaussian Blur Approximation:** This filter will approximate a Gaussian Blur when the user presses "3". Since blurring requires neighborhood knowledge of pixels,     it will rely on your kernel, or convolution matrix, to extract and manipulate the necessary pixel information. 
